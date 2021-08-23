@@ -1,0 +1,37 @@
+:root {
+    --bgLeftBar: rgb(32, 25, 46);
+    --bgHeaderRightBar : #170925;
+    --bgBodyRightBar : #170921;
+    --tooltipColor: rgba(34, 32, 32, 0.727);
+    --colorIcon: rgb(255,255,255,0.8);
+    --colorIconHover: rgb(255,255,255,0.6);
+    --colorSuggestList: #432275;
+    --bgIcon : hsla(0,0%,100%,0.1);
+    --linkActive: hsla(0,0%,100%,0.1);
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+}
+
+.left-bar{
+    box-sizing: border-box;
+    border-right: 1px solid var(--bgLeftBar);
+    width: 229px;
+    background-color: var(--bgLeftBar);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    color: white;
+}
+.right-bar{
+    background-color: white;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Write your code here */
